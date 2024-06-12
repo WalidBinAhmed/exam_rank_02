@@ -1,0 +1,11 @@
+----------------8<-------------[ START TEST 
+        💻 TEST
+./a.out "7" "-42" "0" "-5" "-64" "-2" "-68" "-1"         🔎 YOUR OUTPUT:
+../../rendu/max/max.c:24:5: error: call to undeclared library function 'printf' with type 'int (const char *, ...)'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+    printf("%d\n", max(arr, 7));
+    ^
+../../rendu/max/max.c:24:5: note: include the header <stdio.h> or explicitly provide a declaration for 'printf'
+1 error generated.
+
+        ❌ COMPILATION ERROR
+----------------8<------------- END TEST ]

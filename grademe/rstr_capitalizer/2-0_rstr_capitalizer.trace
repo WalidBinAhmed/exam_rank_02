@@ -1,0 +1,7 @@
+----------------8<-------------[ START TEST 
+        💻 TEST
+./a.out "a FiRSt LiTTlE TESt" 
+        🔎 YOUR OUTPUT:
+A firsT littlE tesT        🗝 EXPECTED OUTPUT:
+A firsT littlE tesT$
+----------------8<------------- END TEST ]

@@ -1,0 +1,57 @@
+----------------8<-------------[ START TEST 
+        💻 TEST
+./a.out "hello World" "hello world"         🔎 YOUR OUTPUT:
+../../rendu/ft_strcspn/ft_strcspn.c:1:1: error: unknown type name 'size_t'
+size_t  ft_strcspn(const char *s, const char *reject)
+^
+../../rendu/ft_strcspn/ft_strcspn.c:3:5: error: use of undeclared identifier 'size_t'; did you mean 'sizeof'?
+    size_t i = 0;
+    ^~~~~~
+    sizeof
+../../rendu/ft_strcspn/ft_strcspn.c:3:14: error: expression is not assignable
+    size_t i = 0;
+    ~~~~~~~~ ^
+../../rendu/ft_strcspn/ft_strcspn.c:3:12: error: use of undeclared identifier 'i'
+    size_t i = 0;
+           ^
+../../rendu/ft_strcspn/ft_strcspn.c:4:5: error: use of undeclared identifier 'size_t'; did you mean 'sizeof'?
+    size_t j;
+    ^~~~~~
+    sizeof
+../../rendu/ft_strcspn/ft_strcspn.c:4:12: error: use of undeclared identifier 'j'
+    size_t j;
+           ^
+../../rendu/ft_strcspn/ft_strcspn.c:6:14: error: use of undeclared identifier 'i'
+    while (s[i]) 
+             ^
+../../rendu/ft_strcspn/ft_strcspn.c:8:9: error: use of undeclared identifier 'j'
+        j = 0;
+        ^
+../../rendu/ft_strcspn/ft_strcspn.c:9:23: error: use of undeclared identifier 'j'
+        while (reject[j])
+                      ^
+../../rendu/ft_strcspn/ft_strcspn.c:11:18: error: use of undeclared identifier 'i'
+            if(s[i] == reject[j])
+                 ^
+../../rendu/ft_strcspn/ft_strcspn.c:11:31: error: use of undeclared identifier 'j'
+            if(s[i] == reject[j])
+                              ^
+../../rendu/ft_strcspn/ft_strcspn.c:12:25: error: use of undeclared identifier 'i'
+                return (i);
+                        ^
+../../rendu/ft_strcspn/ft_strcspn.c:13:13: error: use of undeclared identifier 'j'
+            j++;
+            ^
+../../rendu/ft_strcspn/ft_strcspn.c:15:9: error: use of undeclared identifier 'i'
+        i++
+        ^
+../../rendu/ft_strcspn/ft_strcspn.c:17:13: error: use of undeclared identifier 'i'
+    return (i);
+            ^
+../../rendu/ft_strcspn/ft_strcspn.c:4:5: warning: expression result unused [-Wunused-value]
+    size_t j;
+    ^~~~~~~~
+1 warning and 15 errors generated.
+
+        ❌ COMPILATION ERROR
+----------------8<------------- END TEST ]
